@@ -9,6 +9,18 @@
 #import "ViewController.h"
 #import "NSDictionary+xiaomage.h"
 
+@interface Person: NSObject
+
+@property (strong, nonatomic) NSString *name;
+
+@property (strong, nonatomic) NSString *address;
+
+@end
+
+@implementation Person
+
+@end
+
 @interface ViewController ()
 
 @end
@@ -19,9 +31,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    Person *p = [[Person alloc] init];
     
-    
-    NSDictionary *dic = @{@"name":@"黄晓烟"};
+    NSDictionary *dic = @{@"name":@"黄晓烟", @"person":p};
     NSLog(@"%@", dic);
 }
 

@@ -88,6 +88,7 @@
 		9F21BF6B2043D70B005E123D = {
 			isa = PBXGroup;
 			children = (
+				9F21BFB02043F28E005E123D /* SJLog */,
 				9F21BF762043D70B005E123D /* SJLogDictionary */,
 				9F21BF8F2043D70C005E123D /* SJLogDictionaryTests */,
 				9F21BF9A2043D70C005E123D /* SJLogDictionaryUITests */,
@@ -108,10 +109,6 @@
 		9F21BF762043D70B005E123D /* SJLogDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				9F21BFAA2043E2E5005E123D /* NSDictionary+xiaomage.h */,
-				9F21BFAB2043E2E5005E123D /* NSDictionary+xiaomage.m */,
-				9F21BFAC2043E2E5005E123D /* NSString+xiaomage.h */,
-				9F21BFA92043E2E4005E123D /* NSString+xiaomage.m */,
 				9F21BF772043D70B005E123D /* AppDelegate.h */,
 				9F21BF782043D70B005E123D /* AppDelegate.m */,
 				9F21BF7A2043D70B005E123D /* ViewController.h */,
@@ -142,6 +139,17 @@
 				9F21BF9D2043D70C005E123D /* Info.plist */,
 			);
 			path = SJLogDictionaryUITests;
+			sourceTree = "<group>";
+		};
+		9F21BFB02043F28E005E123D /* SJLog */ = {
+			isa = PBXGroup;
+			children = (
+				9F21BFAA2043E2E5005E123D /* NSDictionary+xiaomage.h */,
+				9F21BFAB2043E2E5005E123D /* NSDictionary+xiaomage.m */,
+				9F21BFAC2043E2E5005E123D /* NSString+xiaomage.h */,
+				9F21BFA92043E2E4005E123D /* NSString+xiaomage.m */,
+			);
+			path = SJLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
