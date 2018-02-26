@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSDictionary+xiaomage.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    NSDictionary *dic = @{@"name":@"黄晓烟"};
+    NSLog(@"%@", dic);
 }
 
 

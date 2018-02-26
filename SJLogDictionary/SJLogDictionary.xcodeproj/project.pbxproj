@@ -15,6 +15,8 @@
 		9F21BF872043D70B005E123D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21BF862043D70B005E123D /* main.m */; };
 		9F21BF912043D70C005E123D /* SJLogDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21BF902043D70C005E123D /* SJLogDictionaryTests.m */; };
 		9F21BF9C2043D70C005E123D /* SJLogDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21BF9B2043D70C005E123D /* SJLogDictionaryUITests.m */; };
+		9F21BFAD2043E2E6005E123D /* NSString+xiaomage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21BFA92043E2E4005E123D /* NSString+xiaomage.m */; };
+		9F21BFAE2043E2E6005E123D /* NSDictionary+xiaomage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21BFAB2043E2E5005E123D /* NSDictionary+xiaomage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		9F21BF972043D70C005E123D /* SJLogDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJLogDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F21BF9B2043D70C005E123D /* SJLogDictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJLogDictionaryUITests.m; sourceTree = "<group>"; };
 		9F21BF9D2043D70C005E123D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F21BFA92043E2E4005E123D /* NSString+xiaomage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+xiaomage.m"; sourceTree = "<group>"; };
+		9F21BFAA2043E2E5005E123D /* NSDictionary+xiaomage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+xiaomage.h"; sourceTree = "<group>"; };
+		9F21BFAB2043E2E5005E123D /* NSDictionary+xiaomage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+xiaomage.m"; sourceTree = "<group>"; };
+		9F21BFAC2043E2E5005E123D /* NSString+xiaomage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+xiaomage.h"; sourceTree = "<group>"; };
+		9F21BFAF2043E4E6005E123D /* SJLogDictionary.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJLogDictionary.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,10 @@
 		9F21BF762043D70B005E123D /* SJLogDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				9F21BFAA2043E2E5005E123D /* NSDictionary+xiaomage.h */,
+				9F21BFAB2043E2E5005E123D /* NSDictionary+xiaomage.m */,
+				9F21BFAC2043E2E5005E123D /* NSString+xiaomage.h */,
+				9F21BFA92043E2E4005E123D /* NSString+xiaomage.m */,
 				9F21BF772043D70B005E123D /* AppDelegate.h */,
 				9F21BF782043D70B005E123D /* AppDelegate.m */,
 				9F21BF7A2043D70B005E123D /* ViewController.h */,
@@ -109,6 +120,7 @@
 				9F21BF802043D70B005E123D /* Assets.xcassets */,
 				9F21BF822043D70B005E123D /* LaunchScreen.storyboard */,
 				9F21BF852043D70B005E123D /* Info.plist */,
+				9F21BFAF2043E4E6005E123D /* SJLogDictionary.pch */,
 				9F21BF862043D70B005E123D /* main.m */,
 			);
 			path = SJLogDictionary;
@@ -265,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F21BFAD2043E2E6005E123D /* NSString+xiaomage.m in Sources */,
+				9F21BFAE2043E2E6005E123D /* NSDictionary+xiaomage.m in Sources */,
 				9F21BF7C2043D70B005E123D /* ViewController.m in Sources */,
 				9F21BF872043D70B005E123D /* main.m in Sources */,
 				9F21BF792043D70B005E123D /* AppDelegate.m in Sources */,
@@ -432,6 +446,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A26RT57CY4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLogDictionary/SJLogDictionary.pch";
 				INFOPLIST_FILE = SJLogDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CLap.SJLogDictionary;
@@ -446,6 +462,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A26RT57CY4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJLogDictionary/SJLogDictionary.pch";
 				INFOPLIST_FILE = SJLogDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CLap.SJLogDictionary;
