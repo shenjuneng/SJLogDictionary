@@ -7,7 +7,7 @@
 //
 
 #import "NSArray+ShenJun.h"
-#import "NSString+xiaomage.h"
+#import "NSString+ShenJun.h"
 
 @implementation NSArray (ShenJun)
 
