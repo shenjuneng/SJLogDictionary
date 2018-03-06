@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSDictionary+xiaomage.h"
+#import "NSDictionary+ShenJun.h"
 
 @interface Person: NSObject
 
