@@ -6,3 +6,20 @@
 ```ruby
 pod 'SJLogDictionary'
 ```
+
+# Examples【示例】
+
+### 
+
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+   
+    NSDictionary *dic = @{@"name":@"黄晓烟"};
+    NSLog(@"%@", dic);
+}
+/** {
+    name = "黄晓烟";
+}
+*/
+```
