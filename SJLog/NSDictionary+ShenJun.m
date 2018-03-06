@@ -1,5 +1,5 @@
 //
-//  NSDictionary+xiaomage.m
+//  NSDictionary+ShenJun.m
 //  LearnX2
 //
 //  Created by 沈骏 on 2018/2/11.
@@ -7,10 +7,10 @@
 //
 
 
-#import "NSDictionary+xiaomage.h"
-#import "NSString+xiaomage.h"
+#import "NSDictionary+ShenJun.h"
+#import "NSString+ShenJun.h"
 
-@implementation NSDictionary (xiaomage)
+@implementation NSDictionary (ShenJun)
 
 - (NSString *)descriptionWithLocale:(id)locale {
     return self.description.unicodeString;

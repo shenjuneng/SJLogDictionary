@@ -1,5 +1,5 @@
 //
-//  NSString+xiaomage.h
+//  NSString+ShenJun.h
 //  LearnX2
 //
 //  Created by 沈骏 on 2018/2/11.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (xiaomage)
+@interface NSString (ShenJun)
 
 - (NSString *)unicodeString;
 

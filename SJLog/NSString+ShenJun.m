@@ -1,14 +1,14 @@
 //
-//  NSString+xiaomage.m
+//  NSString+ShenJun.m
 //  LearnX2
 //
 //  Created by 沈骏 on 2018/2/11.
 //  Copyright © 2018年 沈骏. All rights reserved.
 //
 
-#import "NSString+xiaomage.h"
+#import "NSString+ShenJun.h"
 
-@implementation NSString (xiaomage)
+@implementation NSString (ShenJun)
 
 - (NSString *)unicodeString {
 //    return @"kkkllpp";
